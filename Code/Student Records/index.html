@@ -1,0 +1,66 @@
+<!--Login Page-->
+<!DOCTYPE html>
+	<head> 
+		<title>Student Records</title>
+		
+		<!--meta information and details.-->
+		<meta charset="UTF-8">
+		<meta name="description" content="Student Records">
+		<meta name="viewport" content="width=device-width, initial-scale=1.0">
+		
+		<link rel="stylesheet" type="text/css" href="index.css" />
+		
+		<!--This style will help create the background.-->
+		<style>
+			body {
+			 background-image: url('background.png');
+			}
+		</style>	
+	</head> 
+	<body>
+		<center><h1><p style = "color:white">Student Records</p></h1> 
+		
+		<!--This table is for the user to login.-->
+		<table id="layout"><th>
+			<h3><p style = "color:white"> Existing User </p><h3>
+			<!--Username-->
+			
+			<label style = "color:white" for = "username ">username: </label>
+			<input type = "text" id = "username" name = "username" ><br><br>
+		
+			<!--Password-->
+			
+			<label style = "color:white" for = "password">password: </label>
+			<input type = "text" id = "password" name = "password" ><br><br>
+			
+			<!--Going to Homepage -->
+			<button><a href="Homepage.html">Enter</a></button>
+			</th>
+		</table>
+		
+		<!--This table will be for new user-->
+		<table id="layout" style ="position:relative; left:600px;bottom:250px;" ><th>
+			<h3><p style = "color:white"> New User </p><h3>
+			<!--User Profile-->
+			<label style = "color:white" for = "fname ">First Name: </label>
+			<input type = "text" id = "fname" name = "fname" ><br><br>
+			<label style = "color:white" for = "lname ">Last Name: </label>
+			<input type = "text" id = "lname" name = "lname" ><br><br>
+			<!--Username-->
+			<label style = "color:white" for = "lname" >username: </label>
+			<input type = "text" id = "username" name = "username" ><br><br>
+		
+			<!--Password-->
+			<label style = "color:white" for = "password">password: </label>
+			<input type = "text" id = "password" name = "password" ><br><br>
+			
+			<label style = "color:white" for = "passwordcon">password Confirm: </label>
+			<input type = "text" id = "passwordcon" name = "password Confirm" ><br><br>
+			<!--Going to Homepage -->
+			<button><a href="Homepage.html">Enter</a></button>
+			</th>
+		</table>
+		
+	</body>
+</html>
+
