@@ -1,3 +1,7 @@
+--The examples below are to insert into an existing table using MySQL and to use PostgreSQL state 
+--INSERT INTO "secova25/studentrecords"."table name"
+--	VALUES(given values shown below.);
+
 INSERT INTO userinfo(fname,mname,lname,username,password)
 	VALUES('Samantha', 'T', 'Lurance', 'stlur23', 'student1@gmail.com');
 
