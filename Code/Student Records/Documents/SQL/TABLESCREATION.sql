@@ -1,3 +1,5 @@
+--Below is to add to a MySQL database if you want to create the table to "secova25/studentrecords" in PostgreSQL due:
+
 CREATE TABLE IF NOT EXISTS StudentRecord(
 	FNAME VARCHAR(50),
 	MNAME VARCHAR(50),
