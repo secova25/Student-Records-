@@ -1,0 +1,87 @@
+<!--Homepage Page-->
+<!DOCTYPE html>
+	<head> 
+		<title>Student Records</title>
+		<!--meta information and details.-->
+		<meta charset="UTF-8">
+		<meta name="description" content="Student Records">
+		<meta name="viewport" content="width=device-width, initial-scale=1.0">
+		
+		<link rel="stylesheet" type="text/css" href="index.css" />
+		
+		<!--This style will help create the background.-->
+		<style>
+			body {
+			 background-image: url('background.png');
+			}
+		</style>	
+	</head> 
+	<body>
+		<center><h1><p style = "color:white">Student Records</p></h1> 
+		<div class = "container"style ="position:relative; right:250px;bottom:50px;">
+			<div class = "box">
+				<!--This will be a discription on what the user must do to use this program.-->
+				<p style="color: white; font-family: arial;position:relative; left:10px;bottom:25px;"> 
+					As you you are placing information per each individual student. 
+					Please fill out the given form to the right and once completed press the Add button. 
+					If this is a new person, the database will be upgraded with the new students information. 
+					Otherwise it will add this to the existing student's profile. 
+					If you like to delete a class from a student's record, just fill out the form to the right and press the Delete Button.
+					Your are welcome to veiw existing student's infromation by placing the first name and last name of the student you are looking for and click on view. 
+					Ok let us begin by placing the first name and last name of the student you want to edit their amount of credits recieve pre the given class(es).
+				</p>
+			</div></div>
+			<div class = "container"style ="position:relative; left:250px;bottom:350px;">
+				<div class = "box">
+					<!--This is a form that will be needed to complete in order for the user to place the record of a given student.-->
+					<h3><p style = "color:white"> Student's Record</p><h3>
+					<table>
+					<!--Student's Profile-->
+					<tr><th>
+					<label style = "color:white" for = "fname ">First Name: </label>
+					</th><th>
+					<input type = "text" id = "fname" name = "fname" ><br><br>
+					</th></tr><tr><th>
+					<label style = "color:white" for = "mname ">Middle Name: </label>
+					</th><th>
+					<input type = "text" id = "mname" name = "mname" ><br><br>
+					</th></tr><tr><th>
+					<label style = "color:white" for = "lname ">Last Name: </label>
+					</th><th>
+					<input type = "text" id = "lname" name = "lname" ><br><br>
+					
+					<!--Username-->
+					</th></tr><tr><th>
+					<label style = "color:white" for = "username ">Username: </label>
+					</th><th>
+					<input type = "text" id = "username" name = "username" ><br><br>
+					
+					<!--Class Name-->
+					</th></tr><tr><th>
+					<label style = "color:white" for = "class" >Name of Class: </label>
+					</th><th>
+					<input type = "text" id = "class" name = "class" ><br><br>
+				
+					<!--Number of Credits recieve.-->
+					</th></tr><tr><th>
+					<label style = "color:white" for = "credit">Credit Recieve: </label>
+					</th><th>
+					<input type = "text" id = "credit" name = "credit" ><br><br>
+					
+					<!--Type of credit will be college or high school.-->
+					</th></tr><tr><th>
+					<label style = "color:white" for = "type">Type of Credit: </label>
+					</th><th>
+					<input type = "text" id = "type" name = "type" ><br><br>
+					</th></tr><tr><th>
+					<button><a href="">Add</a></button>
+					</th><th>
+					<button><a href="">Delete</a></button>
+					</th><th>
+					<button><a href="Displayrecord.html">View</a></button>
+					</th></tr>
+				
+		</table></div></div>
+	</body>
+</html>
+
