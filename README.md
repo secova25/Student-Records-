@@ -57,6 +57,7 @@
     together.
   - credit.java is the interface used as an abstract class that will host two 
     methods
+    
             - add() addes the credit. 
             - delete() removes an existing credit.
             - view() views an existing credits of a specific student. 
