@@ -1,7 +1,10 @@
-# Student-Records-
+# Student Records
 ## Origin of the project
   This project was constructed to discuss the purpose of Abstract Factory. Abstract factory is, “intent: Provide an interface for creating families of related or 
 dependent objects without specifying their concrete classes (Nahar and Sakib p1)”.
+
+## Download and Startup
+  At this moment in time there are two versions. The first version was contructed in Eclipes as a maven project. This project can be found in a folder called 
 
 ## Java version
  For an example of Abstract factory we constructed  an interface called credit, where 
@@ -19,9 +22,12 @@ However, in this javafx project, we allow any value that is greater than zero to
 placed into credit. 
 
    ### Methods that were Constructed.
-   - add() method that was inherited in both College and HighSchool class will allows us to add a Node to an existing ArrayList. 
-- delete () method that removes a credit, that already exist on either student A or student B and its possible to remove it by determining a student’s
-name, there are only two students A or B, and class name. This will delete a specific course from either student A or student B. 
+   - add() method that was inherited in both College and HighSchool class will allows     us to add a Node to an existing ArrayList. 
+  - delete () method that removes a credit, that already exist on either student A or     student B and its possible to remove it by determining a student’s
+    name, there are only two students A or B, and class name. This will delete a           specific course from either student A or student B. 
   
  ### UML Design and Discription
  ![UML Classes](/Documents/umlClass.png)
+  
+ ## HTML/CSS/PHP/JAVASCRIPT version
+  Following with similar abstract classes we constructed the similar designs that will see in Javafx.
