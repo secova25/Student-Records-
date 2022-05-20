@@ -18,10 +18,8 @@
   There should be something that states Code. 
   - Click on github and copy the Repository use either visual studio or any command 
   line you are accustomed to use. 
-  
   - You must connect to getbash and use this code:  
-  git clone https://github.com/secova25/Student-Records-.git
-  
+  git clone https://github.com/secova25/Student-Records-.git 
   - Afterwards just place the project in Eclipse and run it. 
   
   ### HTML/CSS/JAVASCRIPT setup
