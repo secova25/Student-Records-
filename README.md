@@ -40,7 +40,23 @@
  the credit hour they received. Now for the most part High School credits and 
  College credits values are different. However, in this javafx project, we allow 
  any value that is greater than zero to be placed into credit. 
+   ### Credit.java  code appearance
+   ---
+     //this interface will be the abstract class for other java classes.  
+        public interface credit {
+            //add and deletes from the list. 
+            public void add(String student, String classname, String type, int hour);
+            public void delete(String student, String classname, String type, int hour) ;
 
+            //prints all values in A and B.
+            public void printALL();
+
+            //gets the size of A and B.
+            public int sizeA();
+            public int sizeB();	
+
+        }
+   ---
    ### Methods that were Constructed.
    - add() method that was inherited in both College and HighSchool class will 
      allows us to add a Node to an existing ArrayList. 
