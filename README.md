@@ -58,9 +58,9 @@
   - credit.java is the interface used as an abstract class that will host two 
     methods
     
-            - add() addes the credit. 
-            - delete() removes an existing credit.
-            - view() views an existing credits of a specific student. 
+             add() addes the credit. 
+             delete() removes an existing credit.
+             view() views an existing credits of a specific student. 
    - College.java and HighSchool.java both extends credit.java methods. 
    - inner class Node although this was not in the final version the inner class
       was shown since the inner class was named the same and stored the same 
@@ -69,4 +69,6 @@
  ![UML Classes](/Documents/umlClass.png)
     
  ## HTML/CSS/PHP/JAVASCRIPT version
-  Following with similar abstract classes we constructed the similar designs that will see in Javafx.
+  Following with similar abstract classes we constructed this version with javafx 
+  in mind. What we have constructed so far is a prototype of what our website 
+  should look like. 
