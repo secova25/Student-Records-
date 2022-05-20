@@ -24,4 +24,4 @@ placed into credit.
 name, there are only two students A or B, and class name. This will delete a specific course from either student A or student B. 
   
  ### UML Design and Discription
- ![UML class](/Documents/UMLclass.pdf)
+ ![UML class]([/Documents/UMLclass.pdf](https://github.com/secova25/Student-Records-/blob/main/Documents/UML%20class.pdf))
