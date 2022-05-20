@@ -4,7 +4,7 @@
 dependent objects without specifying their concrete classes (Nahar and Sakib p1)”.
 
 ## Java version
-  For an example of Abstract factory we constructed  an interface called credit, where 
+ For an example of Abstract factory we constructed  an interface called credit, where 
 the methods, that are in place into the interface, are simple enough for any class 
 to construct. For this assignment we constructed two different classes. The first 
 class is High School class that will contain to list ArrayList A and ArrayList B and 
@@ -17,7 +17,7 @@ received.
 Now for the most part High School credits and College credits values are different. 
 However, in this javafx project, we allow any value that is greater than zero to be 
 placed into credit. 
--
+
    ### Methods that were Constructed.
    - add() method that was inherited in both College and HighSchool class will allows us to add a Node to an existing ArrayList. 
 - delete () method that removes a credit, that already exist on either student A or student B and its possible to remove it by determining a student’s
