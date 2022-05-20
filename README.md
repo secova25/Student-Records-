@@ -4,7 +4,10 @@
 dependent objects without specifying their concrete classes (Nahar and Sakib p1)”.
 
 ## Download and Startup
-  At this moment in time there are two versions. The first version was contructed in Eclipes as a maven project. This project can be found in a folder called 
+    At this moment in time there are two versions. The first version was contructed 
+  in Eclipes as a maven project. This project can be found in a folder called JAVA 
+  CODE. Be advice you must have Eclipse installed on your computer, java and maven 
+  setup properly. If you need help please visit: https://www.guru99.com/install-eclipse-java.html .
 
 ## Java version
  For an example of Abstract factory we constructed  an interface called credit, where 
