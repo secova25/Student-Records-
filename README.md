@@ -28,7 +28,7 @@
   - Open the folder called Code and Select the folder Student Records.
 
 ## Java version
- For an example of Abstract factory we constructed  an interface called credit, 
+    For an example of Abstract factory we constructed  an interface called credit, 
  where the methods, that are in place into the interface, are simple enough for any 
  class to construct. For this assignment we constructed two different classes. The 
  first class is High School class that will contain to list ArrayList A and 
@@ -52,15 +52,16 @@
  ### UML Design and Discription
  What you see below is a construction of how we plan a connection between each 
  class.
-    - JavaFXTemplate.java is the main power house that connects all classes 
+ 
+  - JavaFXTemplate.java is the main power house that connects all classes 
     together.
-    - credit.java is the interface used as an abstract class that will host two 
+  - credit.java is the interface used as an abstract class that will host two 
     methods
             - add() addes the credit. 
             - delete() removes an existing credit.
             - view() views an existing credits of a specific student. 
-    - College.java and HighSchool.java both extends credit.java methods. 
-    - inner class Node although this was not in the final version the inner class
+   - College.java and HighSchool.java both extends credit.java methods. 
+   - inner class Node although this was not in the final version the inner class
       was shown since the inner class was named the same and stored the same 
       varriables.
     
