@@ -12,6 +12,7 @@
   Be advice you must have Eclipse installed on your computer, java and maven 
   setup properly. 
   If you need help please visit: https://www.guru99.com/install-eclipse-java.html .
+  
   ### Setup For JAVA
   - Once you are all setup use the url repository found on the right top corner. 
   There should be something that states Code. 
@@ -19,11 +20,14 @@
   line you are accustomed to use. 
   
   - You must connect to getbash and use this code:  
-  ...
   git clone https://github.com/secova25/Student-Records-.git
-  ...
   
-  - If you are instrested in version two just copy the github depository 
+  - Afterwards just place the project in Eclipse and run it. 
+  
+  ### HTML/CSS/JAVASCRIPT setup
+  - If you are instrested in version two just copy the github depository.
+  - Follow the same step two in the previous procedures.
+  - Open the folder called Code and Select the folder Student Records.
 
 ## Java version
  For an example of Abstract factory we constructed  an interface called credit, 
