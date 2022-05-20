@@ -8,9 +8,22 @@
 ## Download and Startup
     At this moment in time there are two versions. The first version was contructed 
   in Eclipes as a maven project. This project can be found in a folder called JAVA 
-  CODE. Be advice you must have Eclipse installed on your computer, java and maven 
+  CODE. 
+  Be advice you must have Eclipse installed on your computer, java and maven 
   setup properly. 
   If you need help please visit: https://www.guru99.com/install-eclipse-java.html .
+  ### Setup For JAVA
+  - Once you are all setup use the url repository found on the right top corner. 
+  There should be something that states Code. 
+  - Click on github and copy the Repository use either visual studio or any command 
+  line you are accustomed to use. 
+  
+  - You must connect to getbash and use this code:  
+  ...
+  git clone https://github.com/secova25/Student-Records-.git
+  ...
+  
+  - If you are instrested in version two just copy the github depository 
 
 ## Java version
  For an example of Abstract factory we constructed  an interface called credit, 
