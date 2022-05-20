@@ -1,7 +1,9 @@
 # Student Records
 ## Origin of the project
-  This project was constructed to discuss the purpose of Abstract Factory. Abstract factory is, “intent: Provide an interface for creating families of related or 
-dependent objects without specifying their concrete classes (Nahar and Sakib p1)”.
+    This project was constructed to discuss the purpose of Abstract Factory. 
+  Abstract factory is, “intent: Provide an interface for creating families of 
+  related or dependent objects without specifying their concrete classes (Nahar 
+  and Sakib p1)”.
 
 ## Download and Startup
     At this moment in time there are two versions. The first version was contructed 
