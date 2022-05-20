@@ -23,4 +23,5 @@ placed into credit.
 - delete () method that removes a credit, that already exist on either student A or student B and its possible to remove it by determining a student’s
 name, there are only two students A or B, and class name. This will delete a specific course from either student A or student B. 
   
- 
+ ### UML Design and Discription
+ ![UML class](/Documents/UMLclass.pdf)
